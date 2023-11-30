@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.7.34031.279
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCompany.VistasWeb.UI", "..\VistasWeb\MyCompany.VistasWeb.UI\MyCompany.VistasWeb.UI.csproj", "{9BBF6A6B-00D2-4BBD-8B9E-EBDF750C5806}"
 EndProject
@@ -16,6 +16,7 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+<<<<<<< HEAD
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9BBF6A6B-00D2-4BBD-8B9E-EBDF750C5806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9BBF6A6B-00D2-4BBD-8B9E-EBDF750C5806}.Debug|Any CPU.Build.0 = Debug|Any CPU
@@ -34,10 +35,9 @@ Global
 		{136F152F-B3DA-4144-8083-04A87032CEF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{136F152F-B3DA-4144-8083-04A87032CEF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+=======
+>>>>>>> e514c91d699228044f167e81516dfbb8c0f6f024
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {7AC0EE7D-69DF-49A9-913A-ADDF3FFD94AD}
 	EndGlobalSection
 EndGlobal
