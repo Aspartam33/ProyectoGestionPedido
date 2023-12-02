@@ -1,0 +1,23 @@
+﻿<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/css/ClienteStile.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="header">
+        <div id="topMenu">
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a asp-controller="Cliente" asp-action="Index">Cliente</a></li>
+                <li><a href="#Acerca">Acerca</a></li>
+            </ul>
+        </div>
+    </div>
+    <br />
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>

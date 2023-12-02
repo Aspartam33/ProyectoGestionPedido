@@ -1,0 +1,11 @@
+C:\Users\brand\source\repos\VistasWeb\MyCompany.VistasWeb.Models\bin\Debug\net6.0\MyCompany.VistasWeb.Models.deps.json
+C:\Users\brand\source\repos\VistasWeb\MyCompany.VistasWeb.Models\bin\Debug\net6.0\MyCompany.VistasWeb.Models.dll
+C:\Users\brand\source\repos\VistasWeb\MyCompany.VistasWeb.Models\bin\Debug\net6.0\MyCompany.VistasWeb.Models.pdb
+C:\Users\brand\source\repos\VistasWeb\MyCompany.VistasWeb.Models\obj\Debug\net6.0\MyCompany.VistasWeb.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brand\source\repos\VistasWeb\MyCompany.VistasWeb.Models\obj\Debug\net6.0\MyCompany.VistasWeb.Models.AssemblyInfoInputs.cache
+C:\Users\brand\source\repos\VistasWeb\MyCompany.VistasWeb.Models\obj\Debug\net6.0\MyCompany.VistasWeb.Models.AssemblyInfo.cs
+C:\Users\brand\source\repos\VistasWeb\MyCompany.VistasWeb.Models\obj\Debug\net6.0\MyCompany.VistasWeb.Models.csproj.CoreCompileInputs.cache
+C:\Users\brand\source\repos\VistasWeb\MyCompany.VistasWeb.Models\obj\Debug\net6.0\MyCompany.VistasWeb.Models.dll
+C:\Users\brand\source\repos\VistasWeb\MyCompany.VistasWeb.Models\obj\Debug\net6.0\refint\MyCompany.VistasWeb.Models.dll
+C:\Users\brand\source\repos\VistasWeb\MyCompany.VistasWeb.Models\obj\Debug\net6.0\MyCompany.VistasWeb.Models.pdb
+C:\Users\brand\source\repos\VistasWeb\MyCompany.VistasWeb.Models\obj\Debug\net6.0\ref\MyCompany.VistasWeb.Models.dll

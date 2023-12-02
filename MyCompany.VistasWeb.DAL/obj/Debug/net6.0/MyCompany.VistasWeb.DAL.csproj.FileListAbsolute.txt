@@ -1,0 +1,17 @@
+C:\Users\brand\source\repos\VistasWeb\MyCompany.VistasWeb.DAL\bin\Debug\net6.0\MyCompany.VistasWeb.DAL.deps.json
+C:\Users\brand\source\repos\VistasWeb\MyCompany.VistasWeb.DAL\bin\Debug\net6.0\MyCompany.VistasWeb.DAL.dll
+C:\Users\brand\source\repos\VistasWeb\MyCompany.VistasWeb.DAL\bin\Debug\net6.0\MyCompany.VistasWeb.DAL.pdb
+C:\Users\brand\source\repos\VistasWeb\MyCompany.VistasWeb.DAL\obj\Debug\net6.0\MyCompany.VistasWeb.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brand\source\repos\VistasWeb\MyCompany.VistasWeb.DAL\obj\Debug\net6.0\MyCompany.VistasWeb.DAL.AssemblyInfoInputs.cache
+C:\Users\brand\source\repos\VistasWeb\MyCompany.VistasWeb.DAL\obj\Debug\net6.0\MyCompany.VistasWeb.DAL.AssemblyInfo.cs
+C:\Users\brand\source\repos\VistasWeb\MyCompany.VistasWeb.DAL\obj\Debug\net6.0\MyCompany.VistasWeb.DAL.csproj.CoreCompileInputs.cache
+C:\Users\brand\source\repos\VistasWeb\MyCompany.VistasWeb.DAL\obj\Debug\net6.0\MyCompany.VistasWeb.DAL.dll
+C:\Users\brand\source\repos\VistasWeb\MyCompany.VistasWeb.DAL\obj\Debug\net6.0\refint\MyCompany.VistasWeb.DAL.dll
+C:\Users\brand\source\repos\VistasWeb\MyCompany.VistasWeb.DAL\obj\Debug\net6.0\MyCompany.VistasWeb.DAL.pdb
+C:\Users\brand\source\repos\VistasWeb\MyCompany.VistasWeb.DAL\obj\Debug\net6.0\ref\MyCompany.VistasWeb.DAL.dll
+C:\Users\brand\source\repos\VistasWeb\MyCompany.VistasWeb.DAL\bin\Debug\net6.0\MyCompany.VistasWeb.DAL.runtimeconfig.json
+C:\Users\brand\source\repos\VistasWeb\MyCompany.VistasWeb.DAL\obj\Debug\net6.0\MyCompany.VistasWeb.DAL.csproj.AssemblyReference.cache
+C:\Users\brand\source\repos\VistasWeb\MyCompany.VistasWeb.DAL\obj\Debug\net6.0\MyCompany.VistasWeb.DAL.genruntimeconfig.cache
+C:\Users\brand\source\repos\VistasWeb\MyCompany.VistasWeb.DAL\bin\Debug\net6.0\MyCompany.VistasWeb.Models.dll
+C:\Users\brand\source\repos\VistasWeb\MyCompany.VistasWeb.DAL\bin\Debug\net6.0\MyCompany.VistasWeb.Models.pdb
+C:\Users\brand\source\repos\VistasWeb\MyCompany.VistasWeb.DAL\obj\Debug\net6.0\MyCompany.VistasWeb.DAL.csproj.CopyComplete
