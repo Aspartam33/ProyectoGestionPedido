@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ProyectoLourtec2023.GestionPedido.DAL\ProyectoLourtec2023.GestionPedido.DAL.csproj" />
+    <ProjectReference Include="..\ProyectoLourtec2023.GestionPedido.Models\ProyectoLourtec2023.GestionPedido.Models.csproj" />
+  </ItemGroup>
+
 </Project>

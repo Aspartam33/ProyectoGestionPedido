@@ -1,8 +1,22 @@
+using Microsoft.EntityFrameworkCore;
+using ProyectoLourtec2023.GestionPedido.DAL.Contracts;
+using ProyectoLourtec2023.GestionPedido.DAL.DataContext;
+using ProyectoLourtec2023.GestionPedido.DAL.Repositories;
+using ProyectoLourtec2023.GestionPedido.Logic.Contracts;
+using ProyectoLourtec2023.GestionPedido.Logic.Service;
+using ProyectoLourtec2023.GestionPedido.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<IGenericRepository<Cliente>, VistasRepository>();
+builder.Services.AddScoped<IClienteServices, ClienteService>();
 
+builder.Services.AddDbContext<GestionPedidosContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("SQLConnection"));
+});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

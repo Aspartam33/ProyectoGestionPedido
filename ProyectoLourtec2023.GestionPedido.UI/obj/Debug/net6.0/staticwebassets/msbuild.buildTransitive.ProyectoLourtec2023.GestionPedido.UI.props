@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\ProyectoLourtec2023.GestionPedido.UI.props" />
-</Project>

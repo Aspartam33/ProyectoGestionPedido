@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoLourtec2023.GestionPedido.Models", "ProyectoLourtec2023.GestionPedido.Models\ProyectoLourtec2023.GestionPedido.Models.csproj", "{BFFEBAD3-B919-455B-830B-35DE486F4231}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProyectoLourtec2023.GestionPedido.Models", "ProyectoLourtec2023.GestionPedido.Models\ProyectoLourtec2023.GestionPedido.Models.csproj", "{BFFEBAD3-B919-455B-830B-35DE486F4231}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoLourtec2023.GestionPedido.DAL", "ProyectoLourtec2023.GestionPedido.DAL\ProyectoLourtec2023.GestionPedido.DAL.csproj", "{6F67773B-EF7B-4B62-8743-8D8F48DB9F48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProyectoLourtec2023.GestionPedido.DAL", "ProyectoLourtec2023.GestionPedido.DAL\ProyectoLourtec2023.GestionPedido.DAL.csproj", "{6F67773B-EF7B-4B62-8743-8D8F48DB9F48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoLourtec2023.GestionPedido.Logic", "ProyectoLourtec2023.GestionPedido.Logic\ProyectoLourtec2023.GestionPedido.Logic.csproj", "{E70CBE38-F28C-4404-ADE1-92048D70343E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProyectoLourtec2023.GestionPedido.Logic", "ProyectoLourtec2023.GestionPedido.Logic\ProyectoLourtec2023.GestionPedido.Logic.csproj", "{E70CBE38-F28C-4404-ADE1-92048D70343E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoLourtec2023.GestionPedido.UI", "ProyectoLourtec2023.GestionPedido.UI\ProyectoLourtec2023.GestionPedido.UI.csproj", "{802101C8-3075-4358-9CB3-480085C93A8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProyectoLourtec2023.GestionPedido.UI", "ProyectoLourtec2023.GestionPedido.UI\ProyectoLourtec2023.GestionPedido.UI.csproj", "{802101C8-3075-4358-9CB3-480085C93A8D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - DataAccessLayer", "1 - DataAccessLayer", "{9ECA9D10-809C-419C-89FF-3EEDB5C43CB2}"
 EndProject
