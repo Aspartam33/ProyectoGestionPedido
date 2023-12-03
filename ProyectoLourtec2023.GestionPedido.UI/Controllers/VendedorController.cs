@@ -13,10 +13,10 @@ namespace ProyectoLourtec2023.GestionPedido.UI.Controllers
         {
             _vendedorService = vendedorService;
         }
-        public async Task<IActionResult>Index(VendedorViewModel vendedorViewModel)
+        public async Task<IActionResult> Index(VendedorViewModel vendedorViewModel)
         {
             IQueryable<Vendedor> vendedorSql = await _vendedorService.ObtenerTodos();
-            List<VendedorViewModel> listaVendedorViewModels = vendedorSql.Select(vn=> new VendedorViewModel()
+            List<VendedorViewModel> listaVendedorViewModels = vendedorSql.Select(vn => new VendedorViewModel()
             {
                 Id = vn.Id,
                 Nombre = vn.Nombre,
@@ -25,11 +25,11 @@ namespace ProyectoLourtec2023.GestionPedido.UI.Controllers
                 Telefono = vn.Telefono,
                 Activo = vn.Activo,
 
-                
+
             }).ToList();
 
             return View(listaVendedorViewModels);
-          
+
         }
 
         //añadir
@@ -44,7 +44,7 @@ namespace ProyectoLourtec2023.GestionPedido.UI.Controllers
         {
             Vendedor vendedor = new Vendedor()
             {
-                
+
                 Nombre = vendedorViewModel.Nombre,
                 Correo = vendedorViewModel.Correo,
                 Direccion = vendedorViewModel.Direccion,
@@ -52,7 +52,7 @@ namespace ProyectoLourtec2023.GestionPedido.UI.Controllers
                 Telefono = vendedorViewModel.Telefono,
                 Razon = vendedorViewModel.Razon,
                 Activo = vendedorViewModel.Activo,
-               
+
 
             };
             if (ModelState.IsValid)
@@ -63,7 +63,50 @@ namespace ProyectoLourtec2023.GestionPedido.UI.Controllers
             return View();
         }
 
+        //editar
+        public async Task<IActionResult> EditarVendedor()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> EditarVendedor(VendedorViewModel vendedorViewModel)
+        {
+            Vendedor vendedor = new Vendedor()
+            {
+
+                Nombre = vendedorViewModel.Nombre,
+                Correo = vendedorViewModel.Correo,
+                Direccion = vendedorViewModel.Direccion,
+                Rif = vendedorViewModel.Rif,
+                Telefono = vendedorViewModel.Telefono,
+                Razon = vendedorViewModel.Razon,
+                Activo = vendedorViewModel.Activo,
 
 
+            };
+            if (ModelState.IsValid)
+            {
+                var respuesta = _vendedorService.Actualizar(vendedor);
+                return RedirectToAction("Index", "Vendedor");
+            }
+            return View();
+        }
+
+        public async Task<IActionResult> Delete(int id)
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Delete(int id, VendedorViewModel vendedorViewModel)
+        {
+            if (ModelState.IsValid)
+            {
+                bool respuesta = await _vendedorService.Eliminar(id);
+                return RedirectToAction("Index", "Vendedor");
+            }
+            return View();
+        }
     }
 }
