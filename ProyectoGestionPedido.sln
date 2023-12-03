@@ -3,9 +3,53 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProyectoLourtec2023.GestionPedido.Models", "ProyectoLourtec2023.GestionPedido.Models\ProyectoLourtec2023.GestionPedido.Models.csproj", "{BFFEBAD3-B919-455B-830B-35DE486F4231}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProyectoLourtec2023.GestionPedido.DAL", "ProyectoLourtec2023.GestionPedido.DAL\ProyectoLourtec2023.GestionPedido.DAL.csproj", "{6F67773B-EF7B-4B62-8743-8D8F48DB9F48}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProyectoLourtec2023.GestionPedido.Logic", "ProyectoLourtec2023.GestionPedido.Logic\ProyectoLourtec2023.GestionPedido.Logic.csproj", "{E70CBE38-F28C-4404-ADE1-92048D70343E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProyectoLourtec2023.GestionPedido.UI", "ProyectoLourtec2023.GestionPedido.UI\ProyectoLourtec2023.GestionPedido.UI.csproj", "{802101C8-3075-4358-9CB3-480085C93A8D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - DataAccessLayer", "1 - DataAccessLayer", "{9ECA9D10-809C-419C-89FF-3EEDB5C43CB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Bussiness", "3 - Bussiness", "{2355EF04-ADE6-4A3F-8422-B491FFE0A597}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Models", "2 - Models", "{5618EDF3-5B73-4407-925E-D59454558982}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - UI", "0 - UI", "{A08AA5D2-45DF-48A6-A7B6-2D4A9579BCCC}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFFEBAD3-B919-455B-830B-35DE486F4231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFFEBAD3-B919-455B-830B-35DE486F4231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFFEBAD3-B919-455B-830B-35DE486F4231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFFEBAD3-B919-455B-830B-35DE486F4231}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F67773B-EF7B-4B62-8743-8D8F48DB9F48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F67773B-EF7B-4B62-8743-8D8F48DB9F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F67773B-EF7B-4B62-8743-8D8F48DB9F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F67773B-EF7B-4B62-8743-8D8F48DB9F48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E70CBE38-F28C-4404-ADE1-92048D70343E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E70CBE38-F28C-4404-ADE1-92048D70343E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E70CBE38-F28C-4404-ADE1-92048D70343E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E70CBE38-F28C-4404-ADE1-92048D70343E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{802101C8-3075-4358-9CB3-480085C93A8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{802101C8-3075-4358-9CB3-480085C93A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{802101C8-3075-4358-9CB3-480085C93A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{802101C8-3075-4358-9CB3-480085C93A8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BFFEBAD3-B919-455B-830B-35DE486F4231} = {5618EDF3-5B73-4407-925E-D59454558982}
+		{6F67773B-EF7B-4B62-8743-8D8F48DB9F48} = {9ECA9D10-809C-419C-89FF-3EEDB5C43CB2}
+		{E70CBE38-F28C-4404-ADE1-92048D70343E} = {2355EF04-ADE6-4A3F-8422-B491FFE0A597}
+		{802101C8-3075-4358-9CB3-480085C93A8D} = {A08AA5D2-45DF-48A6-A7B6-2D4A9579BCCC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7AC0EE7D-69DF-49A9-913A-ADDF3FFD94AD}

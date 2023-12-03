@@ -24,6 +24,13 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< HEAD
+=======
+[C:/Users/david/source/repos/ProyectoGestionPedido/ProyectoLourtec2023.GestionPedido.UI/Views/LayoutPrincipal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0UHJpbmNpcGFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+>>>>>>> 071a149f0501c3a3e740bf6b9115e3e0c1add368
 [C:/Users/david/source/repos/ProyectoGestionPedido/ProyectoLourtec2023.GestionPedido.UI/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

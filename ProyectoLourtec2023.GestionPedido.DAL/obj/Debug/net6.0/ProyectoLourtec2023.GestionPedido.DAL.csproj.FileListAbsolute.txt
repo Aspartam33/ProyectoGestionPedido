@@ -1,0 +1,17 @@
+C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.DAL\bin\Debug\net6.0\ProyectoLourtec2023.GestionPedido.DAL.deps.json
+C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.DAL\bin\Debug\net6.0\ProyectoLourtec2023.GestionPedido.DAL.runtimeconfig.json
+C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.DAL\bin\Debug\net6.0\ProyectoLourtec2023.GestionPedido.DAL.dll
+C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.DAL\bin\Debug\net6.0\ProyectoLourtec2023.GestionPedido.DAL.pdb
+C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.DAL\bin\Debug\net6.0\ProyectoLourtec2023.GestionPedido.Models.dll
+C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.DAL\bin\Debug\net6.0\ProyectoLourtec2023.GestionPedido.Models.pdb
+C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.DAL\obj\Debug\net6.0\ProyectoLourtec2023.GestionPedido.DAL.csproj.AssemblyReference.cache
+C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.DAL\obj\Debug\net6.0\ProyectoLourtec2023.GestionPedido.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.DAL\obj\Debug\net6.0\ProyectoLourtec2023.GestionPedido.DAL.AssemblyInfoInputs.cache
+C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.DAL\obj\Debug\net6.0\ProyectoLourtec2023.GestionPedido.DAL.AssemblyInfo.cs
+C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.DAL\obj\Debug\net6.0\ProyectoLourtec2023.GestionPedido.DAL.csproj.CoreCompileInputs.cache
+C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.DAL\obj\Debug\net6.0\ProyectoLourtec2023.GestionPedido.DAL.csproj.CopyComplete
+C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.DAL\obj\Debug\net6.0\ProyectoLourtec2023.GestionPedido.DAL.dll
+C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.DAL\obj\Debug\net6.0\refint\ProyectoLourtec2023.GestionPedido.DAL.dll
+C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.DAL\obj\Debug\net6.0\ProyectoLourtec2023.GestionPedido.DAL.pdb
+C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.DAL\obj\Debug\net6.0\ProyectoLourtec2023.GestionPedido.DAL.genruntimeconfig.cache
+C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.DAL\obj\Debug\net6.0\ref\ProyectoLourtec2023.GestionPedido.DAL.dll

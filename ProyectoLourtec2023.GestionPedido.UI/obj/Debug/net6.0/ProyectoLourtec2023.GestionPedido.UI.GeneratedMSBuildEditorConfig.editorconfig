@@ -28,8 +28,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/david/source/repos/ProyectoGestionPedido/ProyectoLourtec2023.GestionPedido.UI/Views/Shared/LayoutPrincipal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExheW91dFByaW5jaXBhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/david/source/repos/ProyectoGestionPedido/ProyectoLourtec2023.GestionPedido.UI/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/source/repos/ProyectoGestionPedido/ProyectoLourtec2023.GestionPedido.UI/Views/Vendedor/CrearVendedor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGVkb3JcQ3JlYXJWZW5kZWRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/source/repos/ProyectoGestionPedido/ProyectoLourtec2023.GestionPedido.UI/Views/Vendedor/EditarVendedor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGVkb3JcRWRpdGFyVmVuZGVkb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/source/repos/ProyectoGestionPedido/ProyectoLourtec2023.GestionPedido.UI/Views/Vendedor/Eliminar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGVkb3JcRWxpbWluYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/source/repos/ProyectoGestionPedido/ProyectoLourtec2023.GestionPedido.UI/Views/Vendedor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGVkb3JcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/david/source/repos/ProyectoGestionPedido/ProyectoLourtec2023.GestionPedido.UI/Views/_ViewImports.cshtml]
