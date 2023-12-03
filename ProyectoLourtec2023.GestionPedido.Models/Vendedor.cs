@@ -9,7 +9,9 @@ public partial class Vendedor
 
     public string? Nombre { get; set; }
 
-    public string? Cedula { get; set; }
+    public string? Razon { get; set; }
+
+    public string? Rif { get; set; }
 
     public string? Direccion { get; set; }
 

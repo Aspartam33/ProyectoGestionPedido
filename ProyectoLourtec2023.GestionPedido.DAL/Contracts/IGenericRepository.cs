@@ -8,6 +8,7 @@ namespace ProyectoLourtec2023.GestionPedido.DAL.Contracts
 {
     public interface IGenericRepository<TEntityModel> where TEntityModel : class
     {
+        
         Task<bool> Insertar(TEntityModel modelo);
         Task<bool> Actualizar(TEntityModel modelo);
         Task<bool> Eliminar(int id);

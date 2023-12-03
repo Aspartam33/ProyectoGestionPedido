@@ -9,6 +9,7 @@ namespace ProyectoLourtec2023.GestionPedido.Logic.Contracts
 {
     public interface IVendedorService
     {
+        
         Task<bool> Insertar(Vendedor modelo);
         Task<bool> Actualizar(Vendedor modelo);
         Task<bool> Eliminar(int id);

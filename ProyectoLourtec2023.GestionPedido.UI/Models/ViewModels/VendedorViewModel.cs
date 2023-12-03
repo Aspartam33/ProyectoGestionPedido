@@ -1,4 +1,5 @@
-﻿using ProyectoLourtec2023.GestionPedido.Models;
+﻿using ProyectoLourtec2023.GestionPedido.DAL.DataContext;
+using ProyectoLourtec2023.GestionPedido.Models;
 
 namespace ProyectoLourtec2023.GestionPedido.UI.Models.ViewModels
 {
@@ -10,7 +11,7 @@ namespace ProyectoLourtec2023.GestionPedido.UI.Models.ViewModels
 
         public string? Razon { get; set; }
 
-        public string? Cedula { get; set; }
+        public string? Rif { get; set; }
 
         public string? Direccion { get; set; }
 

@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+
 using ProyectoLourtec2023.GestionPedido.Logic.Contracts;
 using ProyectoLourtec2023.GestionPedido.Models;
 using ProyectoLourtec2023.GestionPedido.UI.Models.ViewModels;
@@ -19,7 +20,7 @@ namespace ProyectoLourtec2023.GestionPedido.UI.Controllers
             {
                 Id = vn.Id,
                 Nombre = vn.Nombre,
-                Cedula = vn.Cedula,
+                Rif = vn.Rif,
                 Correo = vn.Correo,
                 Telefono = vn.Telefono,
                 Activo = vn.Activo,
@@ -28,6 +29,41 @@ namespace ProyectoLourtec2023.GestionPedido.UI.Controllers
             }).ToList();
 
             return View(listaVendedorViewModels);
+          
         }
+
+        //añadir
+        public async Task<IActionResult> CrearVendedor()
+        {
+            return View();
+        }
+
+        [HttpPost]
+
+        public async Task<IActionResult> CreaVendedor(VendedorViewModel vendedorViewModel)
+        {
+            Vendedor vendedor = new Vendedor()
+            {
+                
+                Nombre = vendedorViewModel.Nombre,
+                Correo = vendedorViewModel.Correo,
+                Direccion = vendedorViewModel.Direccion,
+                Rif = vendedorViewModel.Rif,
+                Telefono = vendedorViewModel.Telefono,
+                Razon = vendedorViewModel.Razon,
+                Activo = vendedorViewModel.Activo,
+               
+
+            };
+            if (ModelState.IsValid)
+            {
+                var respuesta = await _vendedorService.Insertar(vendedor);
+                return RedirectToAction("Index", "Vendedor");
+            }
+            return View();
+        }
+
+
+
     }
 }

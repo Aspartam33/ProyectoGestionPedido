@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 namespace ProyectoLourtec2023.GestionPedido.Logic.Service
 {
     public class VendedorService:IVendedorService
-    {
+    { 
         private readonly DAL.Contracts.IGenericRepository<Vendedor> _vendeRepo;
         public VendedorService(DAL.Contracts.IGenericRepository<Vendedor> vendeRepo )
         {

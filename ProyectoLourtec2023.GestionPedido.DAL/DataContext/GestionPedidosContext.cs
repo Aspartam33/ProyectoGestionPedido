@@ -15,26 +15,25 @@ public partial class GestionPedidosContext : DbContext
     {
     }
 
-    public virtual DbSet<Cliente> Clientes { get; set; }
+    public virtual DbSet<GestionPedido.Models.Cliente> Clientes { get; set; }
 
-    public virtual DbSet<TipoCli> TipoClis { get; set; }
+    public virtual DbSet<GestionPedido.Models.TipoCli> TipoClis { get; set; }
 
-    public virtual DbSet<Vendedor> Vendedors { get; set; }
+    public virtual DbSet<GestionPedido.Models.Vendedor> Vendedors { get; set; }
 
     public virtual DbSet<VentaD> VentaDs { get; set; }
 
-    public virtual DbSet<VentaE> VentaEs { get; set; }
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    {
+    public virtual DbSet<GestionPedido.Models.VentaE> VentaEs { get; set; }
 
-    }
-
+    /*protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
+        => optionsBuilder.UseSqlServer("Data Source = localhost; Initial Catalog = GestionPedidos;Integrated Security = True; Trust Server Certificate = True;");*/
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Cliente>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Cliente__3214EC07B0EA4425");
+            entity.HasKey(e => e.Id).HasName("PK__Cliente__3214EC070C6874C5");
 
             entity.ToTable("Cliente");
 
@@ -68,7 +67,7 @@ public partial class GestionPedidosContext : DbContext
 
         modelBuilder.Entity<TipoCli>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__TipoCli__3214EC079A89D244");
+            entity.HasKey(e => e.Id).HasName("PK__TipoCli__3214EC07E0735E37");
 
             entity.ToTable("TipoCli");
 
@@ -79,13 +78,10 @@ public partial class GestionPedidosContext : DbContext
 
         modelBuilder.Entity<Vendedor>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Vendedor__3214EC07137A3AE3");
+            entity.HasKey(e => e.Id).HasName("PK__Vendedor__3214EC075E2083D7");
 
             entity.ToTable("Vendedor");
 
-            entity.Property(e => e.Cedula)
-                .HasMaxLength(255)
-                .IsUnicode(false);
             entity.Property(e => e.Correo)
                 .HasMaxLength(255)
                 .IsUnicode(false);
@@ -95,6 +91,13 @@ public partial class GestionPedidosContext : DbContext
             entity.Property(e => e.Nombre)
                 .HasMaxLength(255)
                 .IsUnicode(false);
+            entity.Property(e => e.Razon)
+                .HasMaxLength(255)
+                .IsUnicode(false);
+            entity.Property(e => e.Rif)
+                .HasMaxLength(255)
+                .IsUnicode(false)
+                .HasColumnName("RIF");
             entity.Property(e => e.Telefono)
                 .HasMaxLength(30)
                 .IsUnicode(false);
@@ -126,7 +129,7 @@ public partial class GestionPedidosContext : DbContext
 
         modelBuilder.Entity<VentaE>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__VentaE__3214EC07C5B46976");
+            entity.HasKey(e => e.Id).HasName("PK__VentaE__3214EC073568E733");
 
             entity.ToTable("VentaE");
 

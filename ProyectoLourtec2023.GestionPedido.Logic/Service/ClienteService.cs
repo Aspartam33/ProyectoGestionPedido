@@ -11,6 +11,7 @@ namespace ProyectoLourtec2023.GestionPedido.Logic.Service
 {
     public class ClienteService : IClienteServices
     {
+        
         private readonly IGenericRepository<Cliente> _clienRepo;
 
         public ClienteService(IGenericRepository<Cliente> clienRepo)

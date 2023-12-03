@@ -4,6 +4,9 @@ using ProyectoLourtec2023.GestionPedido.DAL.DataContext;
 using ProyectoLourtec2023.GestionPedido.DAL.Repositories;
 using ProyectoLourtec2023.GestionPedido.Logic.Contracts;
 using ProyectoLourtec2023.GestionPedido.Logic.Service;
+//using ProyectoLourtec2023.GestionPedido.DAL.Repositories;
+//using ProyectoLourtec2023.GestionPedido.Logic.Contracts;
+//using ProyectoLourtec2023.GestionPedido.Logic.Service;
 using ProyectoLourtec2023.GestionPedido.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,7 +16,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<IGenericRepository<Cliente>, VistasRepository>();
 builder.Services.AddScoped<IClienteServices, ClienteService>();
 builder.Services.AddScoped<IGenericRepository<Vendedor>, VendedorRepository>();
-builder.Services.AddScoped<IVendedorService,VendedorService>();
+builder.Services.AddScoped<IVendedorService, VendedorService>();
 
 builder.Services.AddDbContext<GestionPedidosContext>(options =>
 {

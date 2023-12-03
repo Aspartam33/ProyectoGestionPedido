@@ -1,3 +1,11 @@
+C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.UI\obj\Debug\net6.0\ProyectoLourtec2023.GestionPedido.UI.csproj.AssemblyReference.cache
+C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.UI\obj\Debug\net6.0\ProyectoLourtec2023.GestionPedido.UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.UI\obj\Debug\net6.0\ProyectoLourtec2023.GestionPedido.UI.AssemblyInfoInputs.cache
+C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.UI\obj\Debug\net6.0\ProyectoLourtec2023.GestionPedido.UI.AssemblyInfo.cs
+C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.UI\obj\Debug\net6.0\ProyectoLourtec2023.GestionPedido.UI.csproj.CoreCompileInputs.cache
+C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.UI\obj\Debug\net6.0\ProyectoLourtec2023.GestionPedido.UI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.UI\obj\Debug\net6.0\ProyectoLourtec2023.GestionPedido.UI.RazorAssemblyInfo.cache
+C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.UI\obj\Debug\net6.0\ProyectoLourtec2023.GestionPedido.UI.RazorAssemblyInfo.cs
 C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.UI\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.UI\bin\Debug\net6.0\appsettings.json
 C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.UI\bin\Debug\net6.0\ProyectoLourtec2023.GestionPedido.UI.staticwebassets.runtime.json
@@ -240,14 +248,6 @@ C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPed
 C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.UI\bin\Debug\net6.0\ProyectoLourtec2023.GestionPedido.Logic.pdb
 C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.UI\bin\Debug\net6.0\ProyectoLourtec2023.GestionPedido.Models.pdb
 C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.UI\bin\Debug\net6.0\ProyectoLourtec2023.GestionPedido.DAL.pdb
-C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.UI\obj\Debug\net6.0\ProyectoLourtec2023.GestionPedido.UI.csproj.AssemblyReference.cache
-C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.UI\obj\Debug\net6.0\ProyectoLourtec2023.GestionPedido.UI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.UI\obj\Debug\net6.0\ProyectoLourtec2023.GestionPedido.UI.AssemblyInfoInputs.cache
-C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.UI\obj\Debug\net6.0\ProyectoLourtec2023.GestionPedido.UI.AssemblyInfo.cs
-C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.UI\obj\Debug\net6.0\ProyectoLourtec2023.GestionPedido.UI.csproj.CoreCompileInputs.cache
-C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.UI\obj\Debug\net6.0\ProyectoLourtec2023.GestionPedido.UI.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.UI\obj\Debug\net6.0\ProyectoLourtec2023.GestionPedido.UI.RazorAssemblyInfo.cache
-C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.UI\obj\Debug\net6.0\ProyectoLourtec2023.GestionPedido.UI.RazorAssemblyInfo.cs
 C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.UI\obj\Debug\net6.0\staticwebassets\msbuild.ProyectoLourtec2023.GestionPedido.UI.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.UI\obj\Debug\net6.0\staticwebassets\msbuild.build.ProyectoLourtec2023.GestionPedido.UI.props
 C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.UI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ProyectoLourtec2023.GestionPedido.UI.props

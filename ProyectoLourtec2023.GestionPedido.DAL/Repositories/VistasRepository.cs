@@ -1,5 +1,5 @@
 ﻿using ProyectoLourtec2023.GestionPedido.DAL.Contracts;
-using ProyectoLourtec2023.GestionPedido.DAL.DataContext;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ namespace ProyectoLourtec2023.GestionPedido.DAL.Repositories
 {
     public class VistasRepository : IGenericRepository<Cliente>
     {
-
+        
         private readonly GestionPedidosContext _dbContext;
 
         public VistasRepository(GestionPedidosContext context)
@@ -51,6 +51,6 @@ namespace ProyectoLourtec2023.GestionPedido.DAL.Repositories
             IQueryable<Cliente> queryClienteSql = _dbContext.Clientes;
             return queryClienteSql;
         }
-
+        
     }
 }
