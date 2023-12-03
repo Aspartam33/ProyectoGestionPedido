@@ -19,7 +19,9 @@ namespace ProyectoLourtec2023.GestionPedido.UI.Models.ViewModels
 
         public string? Telefono { get; set; }
 
-        public bool? Activo { get; set; }
+        public bool Activo { get; set; }
+
+        
 
         public virtual ICollection<VentaE> VentaEs { get; set; } = new List<VentaE>();
     }
