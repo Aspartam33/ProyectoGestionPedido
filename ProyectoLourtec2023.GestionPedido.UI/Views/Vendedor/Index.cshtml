@@ -66,13 +66,13 @@
                         <a class="btn btn-warning btn-sm"  value="EditarVendedor" asp-action="EditarVendedor" asp-route-id="@item.Id">
                             <ion-icon name="pencil-outline"></ion-icon>
                         </a>
-                    </form> |
-                    @Html.ActionLink("Editar", "EditarVendedor", new {  id=item.Id }) |
+                    </form> 
+                   
                     <form asp-action="Delete">
                         <button class="btn btn-danger btn-sm" type="submit" value="Delete" asp-action="Delete" asp-route-id="@item.Id">
                             <ion-icon name="trash-outline"></ion-icon>
                         </button>
-                    </form> |
+                    </form> 
                     
             </td>
         </tr>
