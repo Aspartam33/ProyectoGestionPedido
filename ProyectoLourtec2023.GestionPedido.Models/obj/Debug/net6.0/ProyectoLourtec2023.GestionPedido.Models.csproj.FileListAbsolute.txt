@@ -1,0 +1,11 @@
+C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.Models\bin\Debug\net6.0\ProyectoLourtec2023.GestionPedido.Models.deps.json
+C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.Models\bin\Debug\net6.0\ProyectoLourtec2023.GestionPedido.Models.dll
+C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.Models\bin\Debug\net6.0\ProyectoLourtec2023.GestionPedido.Models.pdb
+C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.Models\obj\Debug\net6.0\ProyectoLourtec2023.GestionPedido.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.Models\obj\Debug\net6.0\ProyectoLourtec2023.GestionPedido.Models.AssemblyInfoInputs.cache
+C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.Models\obj\Debug\net6.0\ProyectoLourtec2023.GestionPedido.Models.AssemblyInfo.cs
+C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.Models\obj\Debug\net6.0\ProyectoLourtec2023.GestionPedido.Models.csproj.CoreCompileInputs.cache
+C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.Models\obj\Debug\net6.0\ProyectoLourtec2023.GestionPedido.Models.dll
+C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.Models\obj\Debug\net6.0\refint\ProyectoLourtec2023.GestionPedido.Models.dll
+C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.Models\obj\Debug\net6.0\ProyectoLourtec2023.GestionPedido.Models.pdb
+C:\Users\david\source\repos\ProyectoGestionPedido\ProyectoLourtec2023.GestionPedido.Models\obj\Debug\net6.0\ref\ProyectoLourtec2023.GestionPedido.Models.dll
