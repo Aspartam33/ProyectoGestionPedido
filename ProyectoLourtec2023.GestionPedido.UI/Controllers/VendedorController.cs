@@ -31,7 +31,7 @@ namespace ProyectoLourtec2023.GestionPedido.UI.Controllers
             return View(listaVendedorViewModels);
 
         }
-
+       
         //añadir
         public async Task<IActionResult> CrearVendedor()
         {
@@ -58,7 +58,12 @@ namespace ProyectoLourtec2023.GestionPedido.UI.Controllers
             if (ModelState.IsValid)
             {
                 var respuesta = await _vendedorService.Insertar(vendedor);
+             ;
                 return RedirectToAction("Index", "Vendedor");
+            }
+            else
+            {
+                Console.WriteLine("desde la vista",vendedor);
             }
             return View();
         }
