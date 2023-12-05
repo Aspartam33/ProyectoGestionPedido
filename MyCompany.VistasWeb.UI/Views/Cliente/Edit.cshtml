@@ -1,23 +1,26 @@
-﻿@model MyCompany.VistasWeb.UI.Models.ViewModels.ClienteViewModel
+@model MyCompany.VistasWeb.UI.Models.ViewModels.ClienteViewModel
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Editar";
+    Layout = "~/Views/Shared/_LayoutPrincipal.cshtml";
 }
 
-<h1>Edit</h1>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Añadir Cliente</title>
+</head>
 
-<h4>Cliente</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
+<body>
+
+    <div class="form-prod-box container">
+        <div class="row">
+            <h4 class="title">Editar Cliente</h4>
+        </div><div class="row">
+      <div class="col-md-4">
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Id" />
-            <div class="form-group">
-                <label asp-for="Id" class="control-label"></label>
-                <input asp-for="Id" class="form-control" />
-                <span asp-validation-for="Id" class="text-danger"></span>
-            </div>
             <div class="form-group">
                 <label asp-for="Nombre" class="control-label"></label>
                 <input asp-for="Nombre" class="form-control" />
@@ -62,15 +65,14 @@
                 <input type="submit" value="Save" class="btn btn-primary" />
             </div>
         </form>
+
+        <div class="row">
+            <a asp-action="Index" class="link-styl">Regresar a la lista</a>
+        </div>
+      </div>
     </div>
-</div>
+</body>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+</html>
 
-@section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
-}
+
