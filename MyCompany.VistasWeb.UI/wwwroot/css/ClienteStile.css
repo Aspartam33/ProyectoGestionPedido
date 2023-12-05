@@ -1,73 +1,80 @@
-﻿body {
-    background-color: #2a2ac9;
-    font-family: 'Times New Roman', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+
+:root {
+    --color-barra-lateral: #0A2640;
+    --color-texto-menu: #ffffff;
+    --color-texto-secundario: #777777;
+    --color-verde: #65E4A3;
+    --gris-claro: #F1F1F1;
+    --azul-grisaceo: #8FB6D5;
 }
 
-h4 {
-    color: black;
-    text-align: center;
-}
 
-.container {
-    max-width: 800px;
+* {
     margin: 0 auto;
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-p {
-    color: #666;
-    line-height: 1.5;
-}
-
-
-ul {
-    list-style-type: none;
-    margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #e0b8b8;
-    background: #4b5d6e;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 
-
-
-li {
-    float: left;
+input::placeholder {
+    color: #777777;
 }
 
-    li a {
-        display: block;
-        color: #0A2640;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
+.form-control .border-form {
+    border: 2px solid #0A2640;
+}
 
-        li a:hover:not(.active) {
-            background-color: #111;
-        }
+.fieldset-from {
+    border: solid;
+    color: #0A2640;
+    border-radius: 1em;
+    padding: 0 1em 1em;
+    margin: 2em 1em 1em;
+}
 
-.active {
-    background-color: #4CAF50;
+.title {
+    color: #0A2640;
+}
+
+.label-sist {
+    color: #0A2640;
+    font-size: 15px;
+}
+
+.border-form {
+    border: solid 2px #65E4A3;
+}
+
+.legend {
+    transform: translatey(-50%);
+    width: max-content;
+    background: #ffffff;
+    padding: 0 0.15em;
+}
+
+.button-submit {
+    border-radius: 5px;
+    background-color: #65E4A3;
+    color: #0A2640;
 }
 
 
-#wrapper {
-    width: 980px;
-    margin: 0 auto;
+.link-styl {
+    text-decoration: none;
+    color: #0A2640;
+    font-size: 16px;
 }
 
-section {
-    border: 1px solid black;
-    height: 50px;
-    width: 31%;
-    margin: 0px 0px 10px 0px;
-    padding: 5px;
-    font-weight: bold;
-    background-color: green;
-    color: white;
-    float: left;
+
+/* visited link */
+a.link-styl:visited {
+    color: #0A2640;
+}
+
+/* mouse over link */
+a.link-styl:hover {
+    color: #65E4A3;
 }
