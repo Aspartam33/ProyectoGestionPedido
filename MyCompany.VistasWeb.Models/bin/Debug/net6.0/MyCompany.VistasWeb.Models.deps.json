@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MyCompany.VistasWeb.Models/1.0.0": {
+        "runtime": {
+          "MyCompany.VistasWeb.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyCompany.VistasWeb.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

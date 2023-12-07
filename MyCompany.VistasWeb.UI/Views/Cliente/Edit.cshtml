@@ -1,0 +1,76 @@
+﻿@model MyCompany.VistasWeb.UI.Models.ViewModels.ClienteViewModel
+
+@{
+    ViewData["Title"] = "Editar";
+    Layout = "~/Views/Shared/_LayoutPrincipal.cshtml";
+}
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Añadir Cliente</title>
+</head>
+
+<body>
+
+    <div class="form-prod-box container">
+        <div class="row">
+            <h4 class="title">Editar Cliente</h4>
+        </div><div class="row">
+            <div class="col-md-4">
+                <form asp-action="Edit">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="Nombre" class="control-label"></label>
+                        <input asp-for="Nombre" class="form-control" />
+                        <span asp-validation-for="Nombre" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Razon" class="control-label"></label>
+                        <input asp-for="Razon" class="form-control" />
+                        <span asp-validation-for="Razon" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Rif" class="control-label"></label>
+                        <input asp-for="Rif" class="form-control" />
+                        <span asp-validation-for="Rif" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Direccion" class="control-label"></label>
+                        <input asp-for="Direccion" class="form-control" />
+                        <span asp-validation-for="Direccion" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Correo" class="control-label"></label>
+                        <input asp-for="Correo" class="form-control" />
+                        <span asp-validation-for="Correo" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Telefono" class="control-label"></label>
+                        <input asp-for="Telefono" class="form-control" />
+                        <span asp-validation-for="Telefono" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Activo" class="control-label"></label>
+                        <input asp-for="Activo" class="form-control" />
+                        <span asp-validation-for="Activo" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Notas" class="control-label"></label>
+                        <input asp-for="Notas" class="form-control" />
+                        <span asp-validation-for="Notas" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Save" class="btn btn-primary" />
+                    </div>
+                </form>
+
+                <div class="row">
+                    <a asp-action="Index" class="link-styl">Regresar a la lista</a>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

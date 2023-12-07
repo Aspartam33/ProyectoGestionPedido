@@ -1,0 +1,80 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+
+:root {
+    --color-barra-lateral: #0A2640;
+    --color-texto-menu: #ffffff;
+    --color-texto-secundario: #777777;
+    --color-verde: #65E4A3;
+    --gris-claro: #F1F1F1;
+    --azul-grisaceo: #8FB6D5;
+}
+
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+input::placeholder {
+    color: #777777;
+}
+
+.form-control .border-form {
+    border: 2px solid #0A2640;
+}
+
+.fieldset-from {
+    border: solid;
+    color: #0A2640;
+    border-radius: 1em;
+    padding: 0 1em 1em;
+    margin: 2em 1em 1em;
+}
+
+.title {
+    color: #0A2640;
+}
+
+.label-sist {
+    color: #0A2640;
+    font-size: 15px;
+}
+
+.border-form {
+    border: solid 2px #65E4A3;
+}
+
+.legend {
+    transform: translatey(-50%);
+    width: max-content;
+    background: #ffffff;
+    padding: 0 0.15em;
+}
+
+.button-submit {
+    border-radius: 5px;
+    background-color: #65E4A3;
+    color: #0A2640;
+}
+
+
+.link-styl {
+    text-decoration: none;
+    color: #0A2640;
+    font-size: 16px;
+}
+
+
+/* visited link */
+a.link-styl:visited {
+    color: #0A2640;
+}
+
+/* mouse over link */
+a.link-styl:hover {
+    color: #65E4A3;
+}
