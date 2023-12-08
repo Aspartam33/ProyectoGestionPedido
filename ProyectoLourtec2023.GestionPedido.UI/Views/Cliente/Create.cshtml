@@ -1,0 +1,114 @@
+﻿@model ProyectoLourtec2023.GestionPedido.UI.Models.ViewModels.ClienteViewModel
+
+@{
+    ViewData["Title"] = "Crear";
+    Layout = "~/Views/Shared/LayoutPrincipal.cshtml";
+}
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Añadir cliente</title>
+</head>
+<body>
+
+    <div class="form-prod-box container">
+        <div class="row">
+            <h4 class="title">Añadir cliente</h4>
+        </div>
+
+        <div class="fieldset-from">
+            <h4 class="legend">Cliente</h4>
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="row  mb-2">
+
+                    <div class="col-sm-6">
+                        <label asp-for="Nombre" class="form-label label-sist">Nombre</label>
+                        <input type="text" asp-for="Nombre" name="Nombre" id="" placeholder="Nombre" class="form-control border-form">
+                        <span asp-validation-for="Nombre" class="text-danger"></span>
+                    </div>
+                    <div class="col-sm-6">
+                        <label asp-for="Rif" class="form-label label-sist">Numero de identificación</label>
+                        <input type="number" asp-for="Rif" placeholder="Identificación" class="form-control border-form"
+                               onkeypress="return isNumberKey(event)">
+                        <span asp-validation-for="Rif" class="text-danger"></span>
+                    </div>
+
+
+                </div>
+                <div class="row  mb-3">
+                    <div class="col-sm-6">
+                        <label asp-for="Correo" for="inputIdProd" class="form-label label-sist">Correo electrónico </label>
+                        <input type="email" asp-for="Correo" name="Correo" id="" placeholder="Correo electrónico" class="form-control border-form">
+                        <span asp-validation-for="Correo" class="text-danger"></span>
+                    </div>
+                    <div class="col-sm-6">
+                        <label for="inputIdProd" asp-for="Telefono" class="form-label label-sist">Numero de teléfono </label>
+                        <input type="number" asp-for="Telefono" name="Telefono" id="" placeholder="Numero de teléfono"
+                               class="form-control border-form" onkeypress="return isNumberKey(event)">
+                        <span asp-validation-for="Telefono" class="text-danger"></span>
+                    </div>
+
+                </div>
+                <div class="row mb-3">
+                    <div class="col-12">
+                        <label asp-for="Razon" class="form-label label-sist">Razón social</label>
+                        <input asp-for="Razon" name="Razon" id="" placeholder="Razón social" class="form-control border-form">
+                    </div>
+
+
+
+                </div>
+                <div class="row  mb-2">
+
+                    <div class="col-6">
+                        <label asp-for="Direccion" class="form-label label-sist">Dirección</label>
+                        <textarea asp-for="Direccion" id="" cols="5" placeholder="Direccion" rows="5" class="form-control border-form"></textarea>
+
+                        <span asp-validation-for="Direccion" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <label for="inputIdProd" asp-for="Notas" class="form-label label-sist">Nota </label>
+                        <input type="text" asp-for="Notas" name="Notas" id="" placeholder="Nota adicional" class="form-control border-form">
+                        <span asp-validation-for="Notas" class="text-danger"></span>
+                    </div>
+
+                </div>
+
+
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" name="Activo" id="flexSwitchCheckDefault" asp-for="Activo">
+                            <label class="form-check-label label-sist" for="flexSwitchCheckDefault" asp-for="Activo">
+                                Activo
+                            </label>
+                        </div>
+                        <button type="submit" class="button-submit">Crear</button>
+                    </div>
+                </div>
+
+
+            </form>
+        </div>
+        <div class="row">
+            <a asp-action="Index" class="link-styl">Regresar a la lista</a>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        function functionx(evt) {
+            if (evt.charCode > 31 && (evt.charCode < 48 || evt.charCode > 57)) {
+                alert("Allow Only Numbers");
+                return false;
+            }
+        }
+    </script>
+</body>
+
+
+</html>

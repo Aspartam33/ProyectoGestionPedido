@@ -1,0 +1,94 @@
+﻿@model IEnumerable<ProyectoLourtec2023.GestionPedido.UI.Models.ViewModels.ClienteViewModel>
+
+@{
+    ViewData["Title"] = "Clientes";
+    Layout = "~/Views/Shared/LayoutPrincipal.cshtml";
+}
+
+
+<p class="welcome">Clientes</p>
+
+<a class="btn btn-info" asp-action="Create">
+    <ion-icon name="add-circle-outline"></ion-icon>
+    <span class="oculto">Registra un cliente
+
+    </span>
+</a>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Nombre
+            </th>
+            <th>
+                Nro. De identificación
+            </th>
+            <th>
+                Dirección
+            </th>
+            <th>
+                Razón social
+            </th>
+            <th>
+                Correo electrónico
+            </th>
+            <th>
+                Número de teléfono
+            </th>
+            <th>
+                Habilitado
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Rif)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Direccion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Razon)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Correo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Telefono)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Activo)
+                </td>
+                <td>
+                    <form asp-action="EditarVendedor">
+                        <a class="btn btn-warning btn-sm" value="Edit" asp-action="Edit" asp-route-id="@item.Id">
+                            <ion-icon name="pencil-outline"></ion-icon>
+                        </a>
+                    </form>
+
+                    <form asp-action="Delete">
+                        <button class="btn btn-danger btn-sm" type="submit" value="Delete" asp-action="Delete" asp-route-id="@item.Id">
+                            <ion-icon name="trash-outline"></ion-icon>
+                        </button>
+                    </form>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
