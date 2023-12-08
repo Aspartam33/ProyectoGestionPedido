@@ -8,7 +8,7 @@
 
 <p class="welcome">Clientes</p>
 
-<a class="btn btn-info" asp-action="CreateClient">
+<a class="btn btn-info" asp-action="Create">
     <ion-icon name="add-circle-outline"></ion-icon>
     <span class="oculto">Registra un cliente
 
@@ -30,6 +30,9 @@
             </th>
             <th>
                 Dirección
+            </th>
+            <th>
+                Razón social
             </th>
             <th>
                 Correo electrónico
@@ -60,6 +63,9 @@
                     @Html.DisplayFor(modelItem => item.Direccion)
                 </td>
                 <td>
+                    @Html.DisplayFor(modelItem => item.Razon)
+                </td>
+                <td>
                     @Html.DisplayFor(modelItem => item.Correo)
                 </td>
                 <td>
@@ -70,7 +76,7 @@
                 </td>
                 <td>
                     <form asp-action="EditarVendedor">
-                        <a class="btn btn-warning btn-sm" value="EditarVendedor" asp-action="EditarVendedor" asp-route-id="@item.Id">
+                        <a class="btn btn-warning btn-sm" value="Edit" asp-action="Edit" asp-route-id="@item.Id">
                             <ion-icon name="pencil-outline"></ion-icon>
                         </a>
                     </form>

@@ -27,7 +27,7 @@ namespace ProyectoLourtec2023.GestionPedido.UI.Controllers
                                                           Direccion = c.Direccion,
                                                           Correo = c.Correo,
                                                           Telefono = c.Telefono,
-                                                          //Activo = c.Activo.To,
+                                                          Activo = c.Activo == true,
                                                           Notas = c.Notas
                                                       }).ToList();
             return View(LstclienteViewModel);
@@ -35,6 +35,9 @@ namespace ProyectoLourtec2023.GestionPedido.UI.Controllers
 
         public async Task<IActionResult> Create()
         {
+            ClienteViewModel clienteViewModel = new ClienteViewModel() {
+                Activo = false
+            };
             return View();
         }
 
