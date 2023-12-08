@@ -8,13 +8,13 @@ namespace ProyectoLourtec2023.GestionPedido.UI.Models.ViewModels
     {
         public int Id { get; set; }
 
-        [Required(ErrorMessage = "Ingresa el nombre del usuario")]
+        [Required(ErrorMessage = "Ingresa el nombre del vendedor")]
         public string? Nombre { get; set; }
 
         public string? Razon { get; set; }
         [Required(ErrorMessage = "Ingresa el número de cédula")]
         public string? Rif { get; set; }
-        [Required(ErrorMessage = "Ingresa la dirección del usuario")]
+        [Required(ErrorMessage = "Ingresa la dirección del vendedor")]
         public string? Direccion { get; set; }
         [Required(ErrorMessage = "Ingresa el correo electrónico")]
         public string? Correo { get; set; }
