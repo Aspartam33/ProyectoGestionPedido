@@ -20,3 +20,17 @@ store.addEventListener("click",()=>{
     span.classList.toggle("oculto");
   })
 })
+
+function GetDate() {
+    var now = new Date();
+
+
+    var date = now.toLocaleString('es-CO')
+    var time = now.getHours() + ":" + now.getMinutes() + ":" + now.getSeconds()
+
+    document.querySelector('#datetime').textContent = "La fecha y hora es: " + date;
+
+
+}
+
+setInterval(GetDate, 1000);

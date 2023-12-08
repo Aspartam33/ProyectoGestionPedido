@@ -5,11 +5,16 @@
     Layout = "~/Views/Shared/LayoutPrincipal.cshtml";
 }
 
-<h3>Vendedores</h3>
+<p class="welcome">Vendedores</p>
 
-<p>
-    <a asp-action="CrearVendedor">Añadir Vendedor</a>
-</p>
+
+<a class="btn btn-info" asp-action="CrearVendedor">
+        <ion-icon name="add-circle-outline"></ion-icon>
+        <span class="oculto">Añadir Vendedor</span>
+    </a>
+    
+    
+
 <table class="table">
     <thead>
         <tr>

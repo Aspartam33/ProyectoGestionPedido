@@ -27,11 +27,12 @@
                     <div class="col-sm-6">
                         <label asp-for="Nombre" class="form-label label-sist">Nombre</label>
                         <input type="text" asp-for="Nombre" name="Nombre" id="" placeholder="Nombre" class="form-control border-form">
-
+                        <span asp-validation-for="Nombre" class="text-danger"></span>
                     </div>
                     <div class="col-sm-6">
                         <label asp-for="Rif" class="form-label label-sist">Numero de identificación</label>
                         <input type="text" asp-for="Rif" placeholder="Identificación" class="form-control border-form">
+                        <span asp-validation-for="Rif" class="text-danger"></span>
                     </div>
 
 
@@ -40,12 +41,12 @@
                     <div class="col-sm-6">
                         <label asp-for="Correo" for="inputIdProd" class="form-label label-sist">Correo electrónico </label>
                         <input type="email" asp-for="Correo" name="Correo" id="" placeholder="Correo electrónico" class="form-control border-form">
-
+                        <span asp-validation-for="Correo" class="text-danger"></span>
                     </div>
                     <div class="col-sm-6">
                         <label for="inputIdProd" asp-for="Telefono" class="form-label label-sist">Numero de teléfono </label>
                         <input type="number" asp-for="Telefono" name="Telefono" id="" placeholder="Numero de teléfono" class="form-control border-form">
-
+                        <span asp-validation-for="Telefono" class="text-danger"></span>
                     </div>
 
                 </div>
@@ -64,7 +65,7 @@
                         <label asp-for="Direccion" class="form-label label-sist">Dirección</label>
                         <textarea  asp-for="Direccion" id="" cols="5" placeholder="Direccion" rows="5" class="form-control border-form"></textarea>
 
-
+                        <span asp-validation-for="Direccion" class="text-danger"></span>
                     </div>
 
 
@@ -81,7 +82,7 @@
                                 Activo
                             </label>
                         </div>
-                        <button type="submit" class="btn button-submit">Crear</button>
+                        <button type="submit" class="button-submit">Crear</button>
                     </div>
                 </div>
 
