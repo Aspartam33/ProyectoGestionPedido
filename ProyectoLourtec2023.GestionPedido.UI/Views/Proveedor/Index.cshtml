@@ -1,0 +1,74 @@
+﻿@model IEnumerable<ProyectoLourtec2023.GestionPedido.UI.Models.ViewModels.ProveedorViewModel>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/LayoutPrincipal.cshtml";
+}
+
+<p class="welcome">Proveedores</p>
+
+
+
+
+<table class="table-info">
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Nombre
+            </th>
+            <th>
+                Nro. De identificación
+            </th>
+            <th>
+                Dirección
+            </th>
+            <th>
+                Razón social
+            </th>
+            <th>
+                Correo electrónico
+            </th>
+            <th>
+                Número de teléfono
+            </th>
+            <th>
+                Habilitado
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Rif)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Direccion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RazonSocial)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Correos)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Telefonos)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Activo)
+                </td>
+              
+            </tr>
+        }
+    </tbody>
+</table>
